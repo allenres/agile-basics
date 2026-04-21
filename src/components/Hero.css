@@ -1,0 +1,22 @@
+.hero {
+    padding: 2rem;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    background-color: rgb(38, 38, 38);
+}
+
+.img-container {
+    width: 40%;
+    margin-left: 4rem;
+}
+
+.tagline {
+    font-size: 2rem;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    border-radius: 0.5rem;
+}
