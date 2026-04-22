@@ -1,4 +1,10 @@
 import './ArtistList.css';
-export default function ArtistList() {
-    
+import ArtistCard from './ArtistCard'
+
+export default function ArtistList({artists}) {
+    return (
+        artists.map((el) => {
+            <ArtistCard artist={el}/>
+        })
+    )
 }
