@@ -1,7 +1,15 @@
 .artist-list {
-    max-width: 1000px;
+    padding: 1rem;
     display: grid;
     grid-template-columns: 1fr;
     margin: 0 auto;
     margin-top: 2rem;
+    display: flex;
+    gap: 2rem;
+}
+
+@media (max-width: 900px) {
+    .artist-list {
+        flex-direction: column;
+    }
 }

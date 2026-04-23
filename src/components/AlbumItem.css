@@ -1,0 +1,10 @@
+.album-items {
+        display: flex;
+        justify-content: space-around;
+    }
+
+@media (max-width: 768px) {
+    .album-items {
+        display: none;
+    }
+}
