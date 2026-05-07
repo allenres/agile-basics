@@ -5,7 +5,6 @@ import data from './data.json'
 import ArtistList from './components/ArtistList'
 
 function App() {
-  console.log(data)
   return (
     <>
       <Header labelTitle={data.label}/>
